@@ -10,7 +10,6 @@ require_once plugin_dir_path(__FILE__) . 'includes/fetch-odds.php';
 require_once plugin_dir_path(__FILE__) . 'includes/admin-settings.php';
 require_once plugin_dir_path(__FILE__) . 'includes/render-odds.php';
 require_once plugin_dir_path(__FILE__) . 'includes/odds-conversion.php';
-// require_once plugin_dir_path(__FILE__) . 'includes/helpers.php';
 require_once plugin_dir_path(__FILE__) . 'includes/gutenberg-block.php';
 
 add_shortcode('odds_comparison', 'ocp_render_odds');
